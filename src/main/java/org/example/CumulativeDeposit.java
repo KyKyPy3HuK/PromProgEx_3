@@ -15,7 +15,7 @@ public class CumulativeDeposit extends SuperDeposit implements Deposit{
         super.sum += sum;
     }
     public double takeSum(double targetSum){
-        if (super.sum >= targetSum){
+        if (super.sum >= targetSum && targetSum >= 0){
             super.sum -= targetSum;
             return targetSum;
         }

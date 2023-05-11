@@ -31,7 +31,7 @@ public abstract class SuperDeposit implements Deposit{
         this.currency = currency;
     }
     public double calculateAccruals(){
-        return this.sum * this.monthlyPercent * (this.termInDays / 30.0);
+        return this.sum * (this.monthlyPercent/100) * (this.termInDays / 30.0);
     }
 
     @Override
