@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb7f2ef-9d1e-47d3-baf2-881a45ebfe75" name="Changes" comment="">
+    <list default="true" id="8eb7f2ef-9d1e-47d3-baf2-881a45ebfe75" name="Changes" comment="test added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CumulativeDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CumulativeDeposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SuperDeposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SuperDeposit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CumulativeDepositTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CumulativeDepositTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CumulativeDepositTest.testTakeSumNotNormal">
+  <component name="RunManager" selected="JUnit.CumulativeDepositTest">
+    <configuration name="CumulativeDepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PromProgEx_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CumulativeDepositTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CumulativeDepositTest.testCalculateAccruals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PromProgEx_3" />
       <extension name="coverage">
@@ -72,22 +85,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CumulativeDepositTest" />
       <option name="METHOD_NAME" value="testCalculateAccruals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CumulativeDepositTest.testChangeCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PromProgEx_3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CumulativeDepositTest" />
-      <option name="METHOD_NAME" value="testChangeCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +106,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SavingDepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PromProgEx_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SavingDepositTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavingDepositTest.testCalculateAccruals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PromProgEx_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SavingDepositTest" />
+      <option name="METHOD_NAME" value="testCalculateAccruals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CumulativeDepositTest" />
+        <item itemvalue="JUnit.SavingDepositTest" />
+        <item itemvalue="JUnit.SavingDepositTest.testCalculateAccruals" />
         <item itemvalue="JUnit.CumulativeDepositTest.testTakeSumNotNormal" />
         <item itemvalue="JUnit.CumulativeDepositTest.testCalculateAccruals" />
-        <item itemvalue="JUnit.CumulativeDepositTest.testChangeCurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +156,18 @@
       <option name="presentableId" value="Default" />
       <updated>1683832180304</updated>
     </task>
+    <task id="LOCAL-00001" summary="test added">
+      <created>1683847389836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683847389836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="test added" />
   </component>
 </project>

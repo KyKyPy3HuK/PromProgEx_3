@@ -27,8 +27,10 @@ public class CumulativeDepositTest extends TestCase {
     @Test
     public void testTakeSum() {
         CumulativeDeposit cumulativeDeposit1 = new CumulativeDeposit(1000, 10.0d, 30, new CurrencyV(1));
-        Double targetValue = 300d;
-        assertEquals(targetValue, cumulativeDeposit1.takeSum(700d));
+        Double targetTargetSumValue = 700d;
+        Double targetSumValue = 300d;
+        assertEquals(targetTargetSumValue, cumulativeDeposit1.takeSum(700d));
+        assertEquals(targetSumValue, cumulativeDeposit1.getDepositSum());
     }
     @Test
     public void testTakeSumNotNormal() {
